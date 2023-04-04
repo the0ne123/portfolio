@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+.above{
+
+    background-color: #051e3d;
+    height: 50px;
+    position: relative;
+}
+
+.header
+{
+   min-height: 100vh;
+   width: 100%;
+   background-image: url(image/bg.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.ournames
+{
+    position: absolute; bottom: 5px; left: 20px;
+    font-weight: bold;
+}
+.s 
+{
+    color: #d4ddff;
+    font-size: 30px;
+    font-style: italic;
+}
+.s span
+{
+    color: 	#ff8000;
+    font-size: 25px;
+}
+
+.text span
+{
+    color: #ff8000;
+}
+
+.nav-links
+{
+    text-align: right;
+    flex: 1;
+    position: absolute; top: 5px; right: 1px;
+}
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 50px;
+    position: relative;
+    
+}
+.nav-links ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li a:hover
+{
+  color: #e5790d;
+    
+}
+.menu_bar
+{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav-links ul li:hover .menu_bar
+{
+display: block;
+position: absolute;
+left: 35px;
+top: 100%;
+background-color:  #051e3d;
+}
+.menu_bar ul
+{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    
+}
+.menu_bar ul li
+{
+    width: 100px;
+    padding: 0px;
+
+}
+    
+.text
+{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text h1
+{
+   font-size: 62px;
+}
+.text h3
+{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.subbar
+{
+    width: 100%;
+    height: 60px;
+    background-color: #051e3d;
+}
+.subbar p
+{
+    position: absolute; bottom: -50px; left: 45%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.lowersec
+{
+    width: 100%;
+    height: 573px;
+    background-color: #80c3b3;
+}
+.navapic
+{
+    width: 220px;
+    height: 220px;
+    background-image: url(image/navaimg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute; top: 115%; left: 5%;
+}
+.navatext
+{
+    width: 890px;
+    height: 220px;
+    position: absolute; top: 126.5%; left: 25%;
+    font-size: 20px;
+}
+.navatext a
+    {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+.navatext a:hover
+{
+    font-size: 25px;
+    color: red; 
+}
+.ralphpic
+{
+    width: 220px;
+    height: 220px;
+    background-image: url(image/ralphimg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute; top: 155%; left: 5%;
+}
+.ralphtext
+{
+    width: 890px;
+    height: 220px;
+    position: absolute; top: 165%; left: 25%;
+    font-size: 20px;
+}
+.ralphtext a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.ralphtext a:hover
+{
+    font-size: 25px;
+    color: red; 
+}
+
